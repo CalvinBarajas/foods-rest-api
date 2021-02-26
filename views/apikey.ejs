@@ -1,0 +1,34 @@
+<%- include('partials/header') %>
+
+<div class="container mt-5">
+  <h1 class="display-3">Foods REST API</h1>
+  <i class="fas fa-carrot fa-4x carrot"></i>
+  <i class="fas fa-apple-alt fa-4x apple-alt"></i>
+  <i class="fas fa-lemon fa-4x lemon"></i>
+  <h1 class="header-h1">API Key Information</h1>
+  <hr />
+
+  <ul>
+  <% if (locals.key && locals.username) { %>    
+    <li>USERNAME: <h2 class="carrot"><%= locals.username %></h2></li>
+    <li>YOUR API KEY: <h2 class="carrot"><%= locals.key %></h2></li>
+    <li>To see how PassportJS works, navigate away from this page and come back to it before you logout.</li>
+  <% } %>
+</ul>
+
+  <hr />
+  <div class="row">
+    <div class="col-sm-8">
+      <div class="card">
+        <div class="card-body">
+            <a class="btn btn-dark btn-md" href="/" role="button"> Home</a>
+            <a class="btn btn-primary btn-md" href="/api/user/logout" role="button">Logout</a>
+            <a class="btn btn-success btn-md" href="/api/user/guide" role="button">Guide</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%- include('partials/footer') %>

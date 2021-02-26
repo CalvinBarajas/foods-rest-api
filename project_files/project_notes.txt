@@ -1,0 +1,17 @@
+=================================
+PROJECT SCOPE
+=================================
+
+* Require users to register and login to obtain API key.
+* Make API RESTful.
+* Andrew will use Postman to test CRUD functionality.
+
+# // local db connection
+mongoose.connect( 
+  "mongodb://localhost:27017/foods-api",
+  {useNewUrlParser: true, useUnifiedTopology: true }, () => 
+  {console.log("successfully connected to local db...");}
+);
+
+// TODO:
+* Add new project to SalonBot.com.

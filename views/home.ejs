@@ -1,0 +1,48 @@
+<%- include('partials/header'); %>
+
+<div class="jumbotron centered">
+  <div class="container">
+    <i class="fas fa-carrot fa-4x carrot"></i>
+    <i class="fas fa-apple-alt fa-4x apple-alt"></i>
+    <i class="fas fa-lemon fa-4x lemon"></i>
+    <h1 class="display-3">Foods REST API</h1>
+    <p class="display-1 lemon">Get Your API Key Today!</p>
+    <hr />
+    <a class="btn btn-primary btn-lg" href="/api/user/register" role="button">Register</a>
+    <a class="btn btn-secondary btn-lg" href="/api/user/login" role="button">Login</a>
+    <a class="btn btn-info btn-lg" href="/api/user/apikey" role="button">API Key (Restricted)</a>
+    <a class="btn btn-success btn-lg" href="/api/user/guide" role="button">Guide</a>
+  </div>
+</div>
+
+<div class="container">
+  <p>Foods REST API is a free JSON API for fruit and vegetable nutritional information.</p>
+  <hr />
+  <h2>Stack Used:</h2>
+  <ul>
+    <li>MongoDB</li>
+    <li>ExpressJS</li>
+    <li>Node.js</li>
+  </ul>
+  <h2>Node Packages Used:</h2>
+  <ul>
+    <li>Express (backend web framework).</li>
+    <li>Mongoose (Mongodb object modeling for node.js).</li>
+    <li>Passport (authentication for Node.js).</li>
+    <li>Passport-Local-Mongoose (plugin that simplifies building username and password login with Passport).</li>
+    <li>Dotenv (loads environment variables from an .env file into process.env).</li>
+    <li>EJS (embedded javascript in HTML).</li>
+    <li>Joi (data validation).</li>
+    <li>Express-session (session middleware writes session ID to cookie).</li>
+  </ul>
+  <h2>Other:</h2>
+  <ul>
+    <li>Bootstrap</li>
+    <li>FontAwesome</li>
+    <li>Heroku</li>
+    <li>GitHub &amp; Git</li>
+    <li>Google Fonts</li>
+  </ul>
+</div>
+
+<%- include('partials/footer'); %>

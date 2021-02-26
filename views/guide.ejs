@@ -1,0 +1,105 @@
+<%- include('partials/header') %>
+
+<div class="container mt-5">
+  <h1 class="display-3">Foods REST API</h1>
+  <i class="fas fa-carrot fa-4x carrot"></i>
+  <i class="fas fa-apple-alt fa-4x apple-alt"></i>
+  <i class="fas fa-lemon fa-4x lemon"></i>
+  <h1 class="header-h1">How To Guide</h1>
+
+  <hr />
+  <div class="row">
+    <div class="col-sm-8">
+      <div class="card">
+        <div class="card-body">
+          <a class="btn btn-dark btn-md" href="/" role="button"> Home</a>
+          <a class="btn btn-primary btn-md" href="/api/user/register" role="button">Register</a>
+          <a class="btn btn-secondary btn-md" href="/api/user/login" role="button">Login</a>
+          <a class="btn btn-info btn-md" href="/api/user/apikey" role="button">API Key (Restricted)</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr />  
+
+<h4>ENDPOINTS:</h4>
+
+<div class="guideSections">
+ <p>
+  <span class="carrot">/api/food</span> (individual food) <br />
+  <span class="carrot">/api/food/all</span> (all foods in db) <br />
+ </p>
+</div>
+
+<h4>GENERAL INFO:</h4>
+
+<div class="guideSections">
+<p>Please note that parameters can appear in any order. For example, <span class="carrot">food=</span> can be at the beginning of the query string or the end.</p>
+<p>List of Foods: <span class="carrot"> almonds, apples, arugula, asparagus, bananas, basil, beetroot, bok choy,
+  broccoli, cantaloupe, carrots, cauliflower</span></p>
+</div>
+
+<h4>QUERY STRING PARAMETERS:</h4>
+
+<div class="guideSections">
+<p>
+  <span class="carrot">Method: </span>GET<br />
+  <span class="carrot">What It Does: </span>Returns only one food record/document.<br />
+  <span class="carrot">URL: </span>/api/food?<span class="lemon">food</span>=&lt;food name&gt;&<span class="lemon">apikey</span>=&lt;valid api key&gt;
+</p>
+
+<p>
+  <span class="carrot">Method: </span>GET<br />
+  <span class="carrot">What It Does: </span>Returns all food records/documents in db.<br />
+  <span class="carrot">URL: </span>/api/food/all?<span class="lemon">apikey</span>=&lt;valid api key&gt;
+</p>
+
+<p>
+  <span class="carrot">Method: </span>POST<br />
+  <span class="carrot">What It Does: </span>Post a new FOOD and BENEFITS to db.<br />
+  <span class="carrot">URL: </span>/api/food?<span class="lemon">apikey</span>=&lt;valid api key&gt;<br />
+  <span class="carrot">Data Source: </span>With Postman, use application/x-www-form-urlencoded or JSON encoding to send FOOD and BENEFITS.<br />
+</p>
+
+<p>
+  <span class="carrot">Method: </span>PUT<br />
+  <span class="carrot">What It Does: </span>Finds existing record/document and updates/replaces all of it.<br />
+  <span class="carrot">URL: </span>/api/food?<span class="lemon">food</span>=&lt;food name&gt;&<span class="lemon">apikey</span>=&lt;valid api key&gt;<br />
+  <span class="carrot">Data Source: </span>With Postman, use application/x-www-form-urlencoded or JSON encoding to send FOOD and BENEFITS.<br />
+</p>
+
+<p>
+  <span class="carrot">Method: </span>PATCH<br />
+  <span class="carrot">What It Does: </span>Finds existing record/document and updates only part of it.<br />
+  <span class="carrot">URL: </span>/api/food?<span class="lemon">food-id</span>=&lt;_id from db&gt;&<span class="lemon">apikey</span>=&lt;valid api key&gt;<br />
+  <span class="carrot">Data Source: </span>With Postman, use application/x-www-form-urlencoded or JSON encoding to send new FOOD and/or BENEFITS.<br />
+</p>
+
+<p>
+  <span class="carrot">Method: </span>DELETE<br />
+  <span class="carrot">What It Does: </span>Finds and deletes entire record/document for only one food.<br />
+  <span class="carrot">URL: </span>/api/food?<span class="lemon">food</span>=&lt;food name&gt;&<span class="lemon">apikey</span>=&lt;valid api key&gt;
+</p>
+</div>
+
+<h4>EXAMPLES:</h4>
+
+<div class="guideSections">
+<h5 class="lemon">TEST WITH BROWSER:</h5>
+<p>(a) You want to GET a single FOOD and BENEFITS...</p>
+<p><span class="carrot">URL: </span>/api/food?<span class="lemon">food</span>=<span class="apple-alt">almonds</span>&<span class="lemon">apikey</span>=<span class="apple-alt">60384c8cf2108a8ef3c79f0d</span> 
+<a href="/api/food?food=almonds&apikey=60384c8cf2108a8ef3c79f0d"><button type="button" class="btn btn-primary">Try It</button></a></p>
+
+<p>(b) You want to GET all FOOD and BENEFITS...</p>
+<p><span class="carrot">URL: </span>/api/food/all?<span class="lemon">apikey</span>=<span class="apple-alt">60384c8cf2108a8ef3c79f0d</span> 
+<a href="/api/food/all?apikey=60384c8cf2108a8ef3c79f0d"><button type="button" class="btn btn-primary">Try It</button></a></p>
+
+<h5 class="lemon">TEST WITH POSTMAN:</h5>
+<p>POST, PUT, PATCH, DELETE</p>
+<a href="/img/postman_ss_01.png"><img src="/img/postman_ss_01.png" alt="postman" width="300" height="300" /></a>
+</div>
+
+</div>
+
+<%- include('partials/footer') %>

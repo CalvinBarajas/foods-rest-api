@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+/* Register & Login Page Headings */
+.header-h1 {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+/* Fruit Header  */
+.carrot {
+  color: orange;
+}
+
+.apple-alt {
+  color: red;
+}
+
+.lemon {
+  color: lime;
+}
+
+.container {
+  margin: auto;
+  width: 100%;
+}
+
+/* Main Button When People Register or Login*/
+.btn-info {
+  width: 15rem;
+}
+
+/* Site Header & Logo */
+.display-1 {
+  font-family: 'Lobster', serif;
+  font-size: 2rem;  
+}
+
+.display-3 {
+  font-family: 'Lobster', serif;
+  font-size: 4rem;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+.jumbotron {
+  background-color: #000;
+}
+
+.form-group {
+  color: #000;
+}
+
+/* sections in the How To Guide page */
+.guideSections {
+  margin: 30px 0;
+}

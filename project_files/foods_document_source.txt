@@ -1,0 +1,59 @@
+{
+ "food" : "almonds",
+ "benefits" : "Almonds are a rich source of vitamin E, copper, magnesium, good quality protein, and healthy unsaturated fatty acids. Studies have revealed that almonds can potentially help prevent cardiovascular diseases, cut the risk of cancer, and help prolong life."
+}
+
+{
+ "food" : "apples",
+ "benefits" : "Apples contain about 14 percent of our daily needs of Vitamin C (a powerful natural antioxidant), B-complex vitamins, dietary fiber, phytonutrients (which help protect the body from the detrimental effects of free radicals), and minerals such as calcium and potassium."
+}
+
+{
+ "food" : "arugula",
+ "benefits" : "Along with other leafy greens, arugula contains very high nitrate levels (more than 250 milligrams per 100 grams). High intakes of dietary nitrate have been shown to lower blood pressure, reduce the amount of oxygen needed during exercise, and enhance athletic performance."
+}
+
+{
+ "food" : "asparagus",
+ "benefits" : "Asparagus is very rich in dietary fiber and contains high levels of vitamin B6, calcium, zinc, and magnesium. The potential health benefits of asparagus include: reducing the risk of diabetes, preventing kidney stones, and lowering the risk of neural tube defects in babies."
+}
+
+{
+ "food" : "bananas",
+ "benefits" : "Bananas are naturally free of fat, cholesterol, and sodium, and very rich in potassium. The potential health benefits of bananas include: lowering blood pressure, reducing the risk of developing childhood leukemia, and supporting heart health."
+}
+
+{
+ "food" : "basil",
+ "benefits" : "Basil is rich in vitamin A, vitamin K, vitamin C, magnesium, iron, potassium, and calcium. Studies have revealed that basil can potentially reduce inflammation and swelling, prevent the harmful effects of aging, and may be useful in treating arthritis and inflammatory bowel diseases."
+}
+
+{
+ "food" : "beetroot",
+ "benefits" : "Beetroot, also known simply as the beet, has been gaining in popularity as a new super food due to recent studies claiming that beets and beetroot juice can improve athletic performance, lower blood pressure and increase blood flow."
+}
+{
+ "food" : "bok choy",
+ "benefits" : "Bok choy belongs to the cruciferous vegetable family, which also includes kale, broccoli, cauliflower, Brussels sprouts, cabbage, collard greens, rutabaga, and turnips. These nutrition powerhouses supply loads of nutrients for little calories."
+}
+
+{
+ "food" : "broccoli",
+ "benefits" : "Broccoli contains high levels of fiber (both soluble and insoluble) and is a rich source of vitamin C. Broccoli is rich in vitamin A, iron, vitamin K, B-complex vitamins, zinc, phosphorus, and phytonutrients. Studies have found that broccoli can potentially help prevent osteoarthritis, protect skin against the effects of UV light, reverse diabetes heart damage, and reduce bladder cancer risk."
+}
+{
+ "food" : "cantaloupe",
+ "benefits" : "Cantaloupes are also commonly known as muskmelons, mush melons, rock melons, and Persian melons. They are a member of the botanical family Cucurbitaceae, along with honeydew and watermelons. Cantaloupe contains an abundance of antioxidants, including choline, zeaxanthin, and beta-carotene, all of which protect against a range of diseases and conditions from the common cold to cancer."
+}
+
+{
+ "food" : "carrots",
+ "benefits" : "Carrots are a great source of vitamin A. They provide 210 percent of an average adult’s needs for the day. The potential health benefits of carrots include: preventing lung cancer, destroying leukemia cells and inhibiting their progression, and helping to restore vision."
+}
+
+{
+ "food" : "cauliflower",
+ "benefits" : "Cauliflowers are a member of the brassica family, more commonly known as cruciferous vegetables. They contain antioxidants and phytonutrients that can protect against cancer. They also contain fiber that helps with satiety, weight loss, and a healthy digestive tract, choline that is essential for learning and memory, as well as many other important nutrients."
+}
+
+
