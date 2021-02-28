@@ -1,4 +1,4 @@
-<h2><a href="https://tranquil-chamber-05238.herokuapp.com/">https://tranquil-chamber-05238.herokuapp.com/</a></h2>
+<h2><a href="https://tranquil-chamber-05238.herokuapp.com/">https://tranquil-chamber-05238.herokuapp.com/</a> (20 Second Delay)</h2>
 
 <h3>Foods REST API is a free JSON API for fruit and vegetable nutritional information.</h3>
   
